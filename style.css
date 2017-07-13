@@ -1,13 +1,14 @@
  /** Header section **/
  header {
-	 display: flex;
 	 font-family: Verdana;
 	 font-size: 14px;
 	 font-weight: bold;
+	 display: inline-flex;
+	 justify-content: flex-start;
  }
  nav {
-	 display: inline-block;
-	 text-align: right;
+	 display: flex;
+	 justify-content: center;
  }
  #logo {
 	  color: MediumAquamarine
