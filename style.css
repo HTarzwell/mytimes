@@ -33,21 +33,22 @@
 .main {
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: column;
+	flex-direction: row;
 	border: 1px solid green;
+	justify-content: space-around;
 }
 .column {
 	border: 1px solid black;
 }
-.column .large {
-    width: 630px;
-	order: 0;
+.large {
+	border: 2px solid HotPink;
+	width: 630px;
 }
-.column .medium {
+.medium {
+	border: 2px solid LimeGreen;
 	width: 300px;
-	order: 1;
 }
-.column .small {
+.small {
+	border: 2px solid SkyBlue;
 	width: 240px;
-	order: 2;
 }
