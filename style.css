@@ -41,11 +41,13 @@
 }
 .column .large {
     width: 630px;
-	display: flex;
+	order: 0;
 }
 .column .medium {
 	width: 300px;
+	order: 1;
 }
 .column .small {
 	width: 240px;
+	order: 2;
 }
