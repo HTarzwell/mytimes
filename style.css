@@ -32,9 +32,9 @@
 /** Main Body section **/
 .main {
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
 	border: 1px solid green;
+	flex-direction: row;
+	flex-wrap: nowrap;
 	justify-content: space-around;
 }
 .column {
@@ -43,12 +43,19 @@
 .large {
 	border: 2px solid HotPink;
 	width: 630px;
+	display: flex;
+	flex-direction: column;
 }
 .medium {
 	border: 2px solid LimeGreen;
 	width: 300px;
+	display: flex;
+	flex-direction: column;
 }
 .small {
 	border: 2px solid SkyBlue;
 	width: 240px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
