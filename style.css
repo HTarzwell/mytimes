@@ -30,58 +30,76 @@
 	 padding-left: 20px;
  }
 /** Main Body section **/
-.main {
+.main-body {
 	display: flex;
-	border: 1px solid green;
 	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
+	justify-content: space-between;
 	font-family: Georgia;
-}
-.column {
-	border: 1px solid black;
+	padding-top: 50px;
 }
 .large {
-	border: 2px solid HotPink;
 	width: 630px;
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 25px;
 }
 .medium {
-	border: 2px solid LimeGreen;
 	width: 300px;
 	display: flex;
 	flex-direction: column;
+	padding: 25px;
 }
 .small {
-	border: 2px solid SkyBlue;
 	width: 240px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	padding: 25px;
 }
-.column.headliners {
+.headline-image {
 	color: white;
 	font-weight: bold;
 	font-size: 30px;
 }
-.column p {
+.main-body p {
 	font-size: 17px;
 }
-#main {
+.main-story {
+	display: flex;
+	flex-wrap: wrap;
+}
+.second-story {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+.third-story {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+#main-image {
 	background-image: url("main.png");
 	font-size: 40px;
 	display: flex;
+	height: 300px;
+	width: 629px;
 }
-#fall {
+#fall-image {
 	background-image: url("fall.png");
 	display: flex;
+	width: 299px;
+	height: 300px;
 }
-#hipster {
+#hipster-image {
 	background-image: url("hipster.png");
 	display: flex;
+	width: 299px;
+	height: 300px;
 }
-#cat {
+#cat-image {
 	background-image: url("cat.png");
 	display: flex;
+	width: 299px;
+	height: 300px;
 }
