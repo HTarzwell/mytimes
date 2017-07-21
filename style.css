@@ -122,18 +122,11 @@
 /** Footer Section **/
 footer {
 	background-color: MediumAquamarine;
-	display: flex;
-	margin: auto;
 	font-family: Verdana;
 	font-size: 12px;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
 }
 .footer-inline {
-	width: 100%;
-	display: flex;
-	justify-content: center;
+
 }
 .footer-logo {
 	font-family: Georgia;
@@ -141,22 +134,19 @@ footer {
 	font-weight: bold;
 	color: white;
 	padding: 20px;
-	width: 50%;
-	display: flex;
-	justify-content: flex-end;
+	/** REMOVE FROM FINAL **/
+	border: 1px solid green;
 }
 .footer-inline nav {
-	display: flex;
-	width: 50%;
-	align-items: center;
+	/** REMOVE FROM FINAL **/
+	border: 1px solid black;
 }
 .footer-inline nav a {
 	color: black;
 	padding: 10px;
 }
 .copyright {
-	width: 100%;
-	display: flex;
-	justify-content: center;
 	padding: 10px;
+	/** REMOVE FROM FINAL **/
+	border: 1px solid red;
 }
