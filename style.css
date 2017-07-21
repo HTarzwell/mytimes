@@ -139,13 +139,11 @@ footer {
 	font-size: 16px;
 	font-weight: bold;
 	color: white;
-	/** REMOVE FROM FINAL **/
-	border: 1px solid green;
+	padding: 10px 20px;
 }
 .footer-inline nav {
-	/** REMOVE FROM FINAL **/
-	border: 1px solid black;
 	display: flex;
+	padding: 10px 10px;
 }
 .footer-inline nav a {
 	color: black;
@@ -154,8 +152,6 @@ footer {
 }
 .copyright {
 	width: 100%;
-	/** REMOVE FROM FINAL **/
-	border: 1px solid red;
 	display: flex;
 	justify-content: center;
 }
