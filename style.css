@@ -124,29 +124,38 @@ footer {
 	background-color: MediumAquamarine;
 	font-family: Verdana;
 	font-size: 12px;
+	display: flex;
+	padding: 50px;
+	justify-content: space-around;
+	flex-direction: column;
 }
 .footer-inline {
-
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 .footer-logo {
 	font-family: Georgia;
 	font-size: 16px;
 	font-weight: bold;
 	color: white;
-	padding: 20px;
 	/** REMOVE FROM FINAL **/
 	border: 1px solid green;
 }
 .footer-inline nav {
 	/** REMOVE FROM FINAL **/
 	border: 1px solid black;
+	display: flex;
 }
 .footer-inline nav a {
 	color: black;
 	padding: 10px;
+	align-self: center;
 }
 .copyright {
-	padding: 10px;
+	width: 100%;
 	/** REMOVE FROM FINAL **/
 	border: 1px solid red;
+	display: flex;
+	justify-content: center;
 }
